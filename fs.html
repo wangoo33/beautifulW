@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="common_38_icon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/fs.css">
+	<title>炉石传说</title>
+</head>
+<body>
+	<!-- 头部索引 -->
+	<div id="nav-client-header" class="nav">
+		<div class="nav-container">
+			<div class="nav-desktop">
+				<div class="navber-desktopOverlay"></div>  <!-- 黑框背景 -->
+				<a href="#" class="nav-logo"></a> 
+				<!-- 导航栏 -->
+				<div class="navbar-item">
+					<a href="#" class="navbar-item">
+						<div class="nav-label">游戏</div>
+						<div class="nav-icon"></div>
+					</a>
+					<a href="#" class="navbar-item">
+						<div class="nav-label">商城</div>
+					</a>
+					<a href="#" class="navbar-item">
+						<div class="nav-label">电竞</div>
+						<div class="nav-icon"></div>
+					</a>
+				</div>
+				<div class="nav-profileitems">
+					<a href="#">
+						<div class="nav-label">支持</div>
+					</a>
+					<a href="#">
+						<div class="nav-label modal">你的通行证</div>
+						<div class="nav-icon"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-modals">
+			<!-- 游戏详情页 -->
+			<div class="navbar-modal" id="games">
+				<div class="navbar-tick">
+					<div class="navbar-tickIner"></div>
+				</div>
+				<div class="navbar-posters">
+					<a href="http://ow.blizzard.cn" target="_blank" class="Navbar-poster"><img src="http://blz.nos.netease.com/1/fsbnet/poster-ow.jpg" class="Navbar-posterImage"><img src="http://blz.nos.netease.com/1/fsbnet/poster-overlay-ow.png" class="Navbar-posterOverlay"></a>
+					<a href="http://wow.blizzard.cn" target="_blank" class="Navbar-poster"><img src="http://blz.nos.netease.com/1/fsbnet/poster-wow.jpg" class="Navbar-posterImage"><img src="http://blz.nos.netease.com/1/fsbnet/poster-overlay-wow.png" class="Navbar-posterOverlay"></a>
+					<a href="http://hs.blizzard.cn" target="_blank" class="Navbar-poster"><img src="http://blz.nos.netease.com/1/fsbnet/poster-hs.jpg" class="Navbar-posterImage"><img src="http://blz.nos.netease.com/1/fsbnet/poster-overlay-hs.png" class="Navbar-posterOverlay"></a>
+					<a href="http://heroes.blizzard.cn" target="_blank" class="Navbar-poster"><img src="http://blz.nos.netease.com/1/fsbnet/poster-heroes.jpg" class="Navbar-posterImage"></a>
+					<a href="http://sc2.blizzard.cn" target="_blank" class="Navbar-poster"><img src="http://blz.nos.netease.com/1/fsbnet/poster-sc2.jpg" class="Navbar-posterImage"></a>
+					<a href="http://d3.blizzard.cn" target="_blank" class="Navbar-poster"><img src="http://blz.nos.netease.com/1/fsbnet/poster-d3.jpg" class="Navbar-posterImage"></a>
+				</div>
+			</div>
+			<!-- 电竞详情页 -->
+			<div class="navbar-modal" id="esports">
+				<div class="navbar-tick" style="left:477.312px">
+					<div class="navbar-tickIner"></div>
+				</div>
+				<div class="Navbar-esports">
+					<div class="navber-espert">
+						<a href="http://www.overwatchesports.cn" target="_blank" class="Navbar-esport"><img src="http://blz.nos.netease.com/1/fsbnet/esports-ow.png" class="Navbar-esportImage"><div class="Navbar-esportLabel">守望先锋电竞官网</div></a>
+
+						<a href="http://gold.blizzard.cn/minisite/gold-super-tournament" target="_blank" class="Navbar-esport"><img src="http://blz.nos.netease.com/1/fsbnet/esports-gold.png" class="Navbar-esportImage"><div class="Navbar-esportLabel">炉石传说黄金系列赛</div></a>
+
+						<a href="http://gold.blizzard.cn/minisite/heroes-tournament" target="_blank" class="Navbar-esport"><img src="http://blz.nos.netease.com/1/fsbnet/esports-heroes.png" class="Navbar-esportImage"><div class="Navbar-esportLabel">HGC黄金风暴联赛</div></a>
+
+						<a href="http://gold.blizzard.cn/minisite/sc2-tournament" target="_blank" class="Navbar-esport"><img src="http://blz.nos.netease.com/1/fsbnet/esports-sc2-wcs.png" class="Navbar-esportImage"><div class="Navbar-esportLabel">星际争霸II黄金职业联赛</div></a>
+
+						<a href="http://gold.blizzard.cn/minisite/war3-tournament/" target="_blank" class="Navbar-esport"><img src="http://blz.nos.netease.com/1/fsbnet/wariii.png" class="Navbar-esportImage"><div class="Navbar-esportLabel">魔兽争霸III黄金联赛</div></a>
+					</div>
+				</div>
+			</div>
+			<!-- 登陆详情页 -->
+			<div class="navbar-account">
+				<div class="navbar-tick" style="left:292px"></div>
+				<div class="navbar-modalContent">
+					<div class="navbar-accountLogged">
+						<div class="navbar-section">
+							<a href="login.html" class="navbar-button">登陆</a>
+						</div>
+						<a href="" class="navbar-accountLink" id="account">
+							<div class="nav-icon navbar-accountLinkIcon"></div>
+							<div class="navbar-accountLable">账户</div>
+						</a>
+						<a href="register.html" class="navbar-accountLink" id="zce">
+							<div class="nav-icon navbar-accountLinkIcon1"></div>
+							<div class="navbar-accountLable">注册</div>
+						</a>
+						<a href="" class="navbar-accountLink" id="zhux">
+							<div class="nav-icon navbar-accountLinkIcon1"></div>
+							<div class="navbar-accountLable">退出</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体 -->
+	<div id="wraper" class="homepage">
+		<div id="content-bot">
+		<a id="app" href="javascript:;" style="display: inline-block;" class="" >
+			<img src="http://hearthstone.nos.netease.com/3/v2015/json/app-ewm.png" alt="" class=" aaa">
+			<img src="http://hearthstone.nos.netease.com/3/v2015/json/app-text.png" alt="" class="">
+		</a>
+		<a id="wb" href="https://weibo.com/playhearthstone?ssl_rnd=1509554744.2359" target="_blank"></a>
+		<a id="gotop" href="#nav-client-header"></a>
+			<div id="header">
+				<a href="fs.html" class="logo"></a>
+				<div class="search">
+					<input type="text" placeholder="输入关键字" value maxlength="30">
+					<a href="javascript:;"></a>
+				</div>
+				<div class="header-nav" id="navWrap">
+					<ul id="nav" class="clearFix">
+						<li class="nav1">
+							<a href="#" class="actives"></a>
+						</li>
+						<li class="nav2">
+							<a href="#"></a>
+							<ul>
+								<li>
+								<a href="#">最新</a>
+								</li>
+								<li>
+								<a href="#">博文</a>
+								</li>
+								<li>
+								<a href="#">赛事</a>
+								</li>
+								<li>
+								<a href="#">活动</a>
+								</li>
+								<li>
+								<a href="#">媒体</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav3">
+							<a href="#"></a>
+							<ul>
+								<li>
+								<a href="#">版本</a>
+								</li>
+								<li>
+								<a href="#">基础知识</a>
+								</li>
+								<li>
+								<a href="#">炉石大事件</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav4">
+							<a href="#"></a>
+							<ul>
+								<li>
+								<a href="#">视频</a>
+								</li>
+								<li>
+								<a href="#">截图</a>
+								</li>
+								<li>
+								<a href="#">壁纸</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav5">
+							<a href="#"></a>
+						</li>
+						<li class="nav6">
+							<a href="#"></a>
+						</li>
+						<li class="nav7">
+							<a href="#"></a>
+							<ul>
+								<li>
+								<a href="#">积分排名</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav8">
+							<a href="forum.html"></a>
+						</li>
+						<li class="sprite-left"></li>
+						<li class="sprite-right"></li>
+					</ul>
+					<span class="fix1"></span>
+					<span class="fix2"></span>
+					<span class="fix3"></span>
+					<span class="fix4"></span>
+					<span class="fix5"></span>
+				</div>
+			</div>
+			<div id="container">
+				<div class="homeCon">
+					<div class="homeCon-top">
+						<div id="eye">
+							<div class="eye_weaper">
+								<ul class="eye_pic clearFix" id="click">
+									<li>
+										<a href="http://hs.blizzard.cn/article/115/11238" target="_blank">
+											<img src="img/goldarena.jpg">
+										</a>
+									</li>
+									<li>
+										<a href="http://csl.blizzard.cn/home" target="_blank">
+											<img src="img/gxzb.jpg">
+										</a>	
+									</li>
+									<li>
+										<a href="http://hs.blizzard.cn/article/16/10509" target="_blank">
+											<img src="img/6402963.png">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<ul class="eye_small">
+								<li class="">
+									<a href="javascript:;">
+										<img src="img/goldarena.jpg" class="small_pic on">
+									</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">
+										<img src="img/Fcsl_4th_at.jpg"   class="small_pic">
+									</a>
+								</li>
+								<li class="">
+									<a href="javascript:;">
+										<img src="img/6402963.png"   class="small_pic">
+									</a>
+								</li>
+							</ul>
+							<ul class="txtlist">
+								<li class="show">《黄金竞技场》10月21日18时报名</li>
+								<li>高校星联赛秋季赛报名开始</li>
+								<li>“冰封王座的骑士”现已上线</li>
+							</ul>
+						</div>
+						<ul class="videoEye clearFix">
+							<li class="videoEyefirst">
+								<img src="img/cardve1.jpg">
+								<p>“冰封王座的骑士”全部卡牌一览</p>
+							</li>
+							<li>
+								<img src="img/wdw.png">
+								<p>最新动画——“炉石与家”</p>
+							</li>
+						</ul>
+						<div class="homeNews">
+							<!-- 显示块 1-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_sls (2).jpg">
+									<h4>全民实力赛冬季赛卡背公布：虚空召唤与圣光召唤</h4>
+									<p class="homeNewsIntro"> 暴雪游戏全民实力赛冬季赛将于10月25日正式开放报名，《炉石传说》项目南北阵营专属卡背正式揭晓。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">0</span>
+									</a>
+									<span class="time">2017-10-27</span>
+								</p>
+							</div>
+							<!-- 显示块 2-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_gold_bigeye.jpg">
+									<h4>黄金公开赛广州站分组名单公布</h4>
+									<p class="homeNewsIntro">  《炉石传说》黄金公开赛广州站将于10月27日-10月29日期间在广州体育馆2号馆举行。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">5</span>
+									</a>
+									<span class="time">2017-10-26</span>
+								</p>
+							</div>
+							<!-- 显示块 3-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/travenbrawl_shiftcon.jpg">
+									<h4>乱斗模式——“我变我变我变变变”现已开放</h4>
+									<p class="homeNewsIntro">和其他百变泽鲁斯一较高下！选择一个职业，我们会用百变泽鲁斯和若干法术来填充你的套牌。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">99+</span>
+									</a>
+									<span class="time">2017-10-26</span>
+								</p>
+							</div>
+								<!-- 显示块 5-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/patchnotes.jpg">
+									<h4>《炉石传说》补丁说明——2017年10月18日</h4>
+									<p class="homeNewsIntro">在本次版本更新中，我们除了准备举办无头骑士的万圣节派对外，还对游戏机制做出了一些细微但重要的改动。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">7</span>
+									</a>
+									<span class="time">2017-10-25</span>
+								</p>
+							</div>
+							<!-- 显示块 6-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Thumb.jpg">
+									<h4>《炉石传说》万圣节活动即将到来</h4>
+									<p class="homeNewsIntro">时辰已到！恐怖将至！《炉石传说》万圣节活动即将在10月24日到11月6日期间上演！</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">8</span>
+									</a>
+									<span class="time">2017-10-25</span>
+								</p>
+							</div>
+							<!-- 显示块 7-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_panda.jpg">
+									<h4>熊猫直播巫妖王的派对10月21日开启</h4>
+									<p class="homeNewsIntro">熊猫直播将举办炉石明星主播大狂欢，这场巫妖王的派对将于10月21日开启。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">8</span>
+									</a>
+									<span class="time">2017-10-21</span>
+								</p>
+							</div>
+								<!-- 显示块 8-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/updata.jpg">
+									<h4>即将到来的机制更新</h4>
+									<p class="homeNewsIntro">在即将到来的更新中，我们将会在游戏机制上做出一些改动。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">99+</span>
+									</a>
+									<span class="time">2017-10-20</span>
+								</p>
+							</div>
+								<!-- 显示块 9-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_jjc_banner.jpg">
+									<h4>2017年竞技场十月胜率排行榜</h4>
+									<p class="homeNewsIntro">2017年《炉石传说》竞技场十月胜率排名榜单出炉，一起来看看这些在竞技场中发挥出色的玩家。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">99+</span>
+									</a>
+									<span class="time">2017-10-20</span>
+								</p>
+							</div>
+							<!-- 显示块 9-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_braw.jpg">
+									<h4>乱斗模式——“法典对决”现已开放</h4>
+									<p class="homeNewsIntro">选择10张卡牌，每当你能抽一张牌时，转而从你的牌库里发现一张卡牌的复制。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">99+</span>
+									</a>
+									<span class="time">2017-10-19</span>
+								</p>
+							</div>
+							<!-- 显示块 10-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_braw.jpg">
+									<h4>乱斗模式——“法典对决”现已开放</h4>
+									<p class="homeNewsIntro">选择10张卡牌，每当你能抽一张牌时，转而从你的牌库里发现一张卡牌的复制。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">99+</span>
+									</a>
+									<span class="time">2017-10-19</span>
+								</p>
+							</div>
+							<!-- 显示块 11-->
+							<div class="homeNewsWrap homeNewsWrapF">
+								<a href="" class="homeNewsItem">
+									<img src="img/Fhs_braw.jpg">
+									<h4>乱斗模式——“法典对决”现已开放</h4>
+									<p class="homeNewsIntro">选择10张卡牌，每当你能抽一张牌时，转而从你的牌库里发现一张卡牌的复制。</p>
+								</a>
+								<p class="homeNewsComment">
+									<a href="">
+										<span class="iconCommon"></span>
+										<span class="commentNum">99+</span>
+									</a>
+									<span class="time">2017-10-19</span>
+								</p>
+							</div>
+							<!-- 更多 -->
+							<div class="newsMore">
+								<a href="javascript:;" class="borderLink">
+									更多新闻
+								</a>
+							</div>
+							<p class="homeCon-bot"></p>
+						</div>
+					</div>
+				</div>
+				<!-- 首页右侧 -->
+				<div class="homeBar">
+					<div class="featuress">
+						<a href="#" class="barlogo"></a>
+						<div class="download">
+							<ul class="devicecon clearFix">
+								<li class="lis1"></li>
+								<li class="lis2">
+									<img src="img/Fewm.jpg">
+								</li>
+								<li class="lis3">
+									<img src="img/1498818557.png">
+								</li>
+							</ul>
+							<a href="http://www.battlenet.com.cn/download/getInstallerForGame?os=win&locale=zhCN&version=LIVE&gameProgram=HEARTHSTONE" 
+							class="clientDown"></a>
+						</div>
+						<div class="wyw-icon"></div>
+					</div>
+						<!-- 0.0 -->
+						<div class="dragWrapper">
+							<!-- 1 -->
+							<div class="rightModule">
+								<div class="dragBtn"></div>
+									<div class="top">
+										<div class="bot">
+											<h3>
+										<span class="iconcommon iconZh"></span>电竞赛事
+											</h3>
+											<div class="esport">
+												<div class="esportCon">
+													<ul class="eye_saiS" style="left:0px">
+														<li>
+															<a href="http://gold.blizzard.cn/minisite/gold-open-tournament" target="_blank">
+																<span class="esportBg">
+																	<img width="244px" src="img/2Fhs_gold_logo_background.png">
+																</span>
+																<span class="esportCont">
+																	<img width="244px" src="img/2Fhs_gold_logo.png">
+																</span>
+																<span class="esportTit">黄金公开赛广州站27日打响
+																</span>
+
+															</a>
+														</li>
+														<li>
+															<a href="http://csl.blizzard.cn/" target="_blank">
+																<span class="esportBg">
+																	<img width="244px" src="img/12Fhs8212.png">
+																</span>
+																<span class="esportCont">
+																	<img width="244px" src="img/12Fhs8211.png">
+																</span>
+																<span class="esportTit">秋季报名开启
+																</span>
+
+															</a>
+														</li>
+														<li>
+															<a href="http://esports.blizzard.cn/sls" target="_blank">
+																<span class="esportBg">
+																	<img width="244px" src="img/Fesport2Fhs_sls_bg.png">
+																</span>
+																<span class="esportCont">
+																	<img width="244px" src="img/Fesport2Fhs_sls_logo.png">
+																</span>
+																<span class="esportTit">全民实力赛冬季赛报名开启
+																</span>
+
+															</a>
+														</li>
+													</ul>
+												</div>
+												<a href="javascript:;" class="prev"></a>
+												<a href="javascript:;" class="next"></a>
+											</div>
+										</div>
+								</div>
+							</div>
+							<!-- 精彩视频开始 -->
+							<div class="rightModule">
+								<div class="dragBtn"></div>
+								<div class="mid">
+									<div class="top">
+										<div class="bot">
+											<h3>
+												<span class="iconcommon iconZh"></span>游戏直播
+											</h3>
+											<div class="videBox">
+												<a href="http://hs.blizzard.cn/article/98/2493" class="playBtn" target="_blank"></a>
+												<img src="http://hearthstone.nos.netease.com/3/home/v5/live.jpg">
+												<span class="over"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 精彩视频结束 -->
+							<!-- 媒体推荐开始 -->
+							<div class="rightModule">
+								<div class="dragBtn"></div>
+								<div class="mid">
+									<div class="top">
+										<div class="bot">
+											<h3>
+												<span class="iconcommon iconMt"></span>媒体推荐
+											</h3>
+											<ul class="bblist">
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mediaSource">【本周直播】</span>
+														<span class="mTitle">《炉石传说》直播汇总</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mediaSource">【斗鱼TV】</span>
+														<span class="mTitle">斗鱼TV炉石综艺直播节目</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mediaSource">【熊猫TV】</span>
+														<span class="mTitle">进攻冰冠堡垒全明星对决</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mediaSource">【17173】</span>
+														<span class="mTitle">《炉石传说》残局大师活动</span>
+													</a>
+												</li>
+											</ul>
+											<a class="moreBtn" href="javascript:;" target="_blank">
+												查看更多
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 媒体推荐结束 -->
+							<!-- 第三方赛事开始 -->
+							<div class="rightModule">
+								<div class="dragBtn"></div>
+								<div class="mid">
+									<div class="top">
+										<div class="bot">
+											<h3>
+												<span class="iconcommon iconTj"></span>第三方赛事推荐
+											</h3>
+											<ul class="bblist">
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mTitle">斗鱼十一天梯竞速赛</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mTitle">斗鱼天梯24小时马拉松活动</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mTitle">《炉石大冒险》第三期</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mTitle">斗鱼保时捷杯英雄乱斗十二胜</span>
+													</a>
+												</li>
+												<li>
+													<a href="javascript:;" target="_blank">
+														<span class="iconcommon iconSmall"></span>
+														<span class="mTitle">《炉石大冒险》第二期</span>
+													</a>
+												</li>
+											</ul>
+											<a class="moreBtn" href="javascript:;" target="_blank">
+												查看更多
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 第三方赛事结束-->
+							<div class="rightModule-normal">
+								<div class="subModule serbices">
+									<div class="text">	
+										<h4>暴雪游戏安全中心</h4>
+									</div>
+									<a href="javascript:;" class="icon services-icon" target="_blank"></a>
+								</div>
+								<!-- 0.0 -->
+								<div class="subModule">
+									<div class="text">	
+										<h4>充值指引</h4>
+									</div>
+									<a href="javascript:;" class="icon guide" target="_blank"></a>
+								</div>
+								<!-- 0.0 -->
+								<div class="subModule">
+									<div class="text">	
+										<h4>隨身炉石App</h4>
+									</div>
+									<a href="javascript:;" class="icon appsite" target="_blank"></a>
+								</div>
+								<!-- 0.0 -->
+								<div class="bmall subModule">
+									<div class="text">	
+										<h4>官方周边商城</h4>
+										<p>bmall.163.com</p>
+									</div>
+									<a href="javascript:;" class="icon bmallIcon" target="_blank"></a>
+								</div>
+								<!-- 0.0 -->
+								<div class="bmall subModule">
+									<div class="text">	
+										<h4>官方充值旗舰店(天猫)</h4>
+										<p>blz.tmall.com</p>
+									</div>
+									<a href="javascript:;" class="icon tmallIcon" target="_blank"></a>
+								</div>
+								<!-- 0.0 -->
+								<div class="bmall subModule">
+									<div class="text">	
+										<h4>积分奖励系统</h4>
+										<p>reward.battlenet.com.cn</p>
+									</div>
+									<a href="javascript:;" class="icon rewardIcon" target="_blank"></a>
+								</div>
+								<!-- 0.0 -->
+								<div class="bmall subModule">
+									<div class="text">	
+										<h4>加入我们</h4>
+										<p>wangzhiyi.zhiye.com</p>
+									</div>
+									<a href="javascript:;" class="icon jionUsIcon" target="_blank"></a>
+								</div>
+							</div>
+							<!-- 互动社区开始 -->
+							<div class="rightModule">
+								<div class="dragBtn"></div>
+								<div class="mid">
+									<div class="top">
+										<div class="bot">
+											<h3>
+												<span class="iconcommon iconChui"></span>互动社团
+											</h3>
+											<ul class="comm_share">
+												<li class="borderR">
+													<a href="javascript:;" class="yixin">
+														<span></span> 易信
+													</a>
+												</li>
+												<li class="">
+													<a href="javascript:;" class="weixin">
+														<span></span> 微信公众号
+													</a>
+												</li>
+												<li class="borderR">
+													<a href="javascript:;" class="xinlang">
+														<span></span> 新浪微博
+													</a>
+												</li>
+												<li class="">
+													<a href="javascript:;" class="webapp">
+														<span></span> 手机官方版
+													</a>
+												</li>
+												<li class="borderR">
+													 官方邮箱
+													<a href="hs@battlenet.com.cn" class="font-small">hs@battlenet.com.cn</a>
+												</li>
+												<li>
+													 客服电话
+													<a href="hs@battlenet.com.cn" class="font-small1">0571-28090163</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 互动社区结束 -->
+							<div class="homebar-bot">
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体结束 -->
+	<!-- 页脚开始 -->
+	<div id="footer">
+		<div class="footer">
+			<div class="regWrapper">
+				<a href="register.html" class="u-regBtn" target="_blank">账号注册</a>
+			</div>
+			<div class="f-cb">
+				<p class="f-cs">
+					<a href="https://www.battlenet.com.cn/support/zh/">
+						<span class="icon1 icon-1"></span>在线客服
+						
+					</a>
+					<a href="http://www.battlenet.com.cn/zh/feedback/">
+						<span class="icon1 icon-2"></span>反馈
+
+					</a>
+					<a href="http://wangzhiyi.zhiye.com/">
+						<span class="icon1 icon-3"></span>加入我们
+					</a>
+				</p>
+				<div class="foot-media">
+					<p>
+						<strong style="color: #fff">合作品牌：</strong>
+						<a href="http://www.nvidia.cn/page/home.html" target="_blank" class="foot-icon icon-nvidia"></a>
+					</p>
+				</div>
+			</div>
+			<div class="cprt">
+				<a href="#" target="_blank" class="logo_bz"></a>
+				<a href="http://www.163.com/" target="_blank" class="logo_ne"></a>
+				<div class="info">
+					<ul class="clearFix">
+						<li>隐私</li>
+						<li>法律条例</li>
+						<li>API</li>
+					</ul>
+					<p>©2017 暴雪娱乐有限公司版权所有 由上海网之易网络科技发展有限公司运营 著作权侵权 新出审字[2013]1510号</p>
+					<p>文网进字[2013]029号 沪网文[2014]0731-161号 增值电信业务经营许可证编号：沪B2－20080012</p>
+					<p>互联网违法和不良信息举报电话：0571-28090163 沪公网安备 31011502022167号</p>
+					<p class="integr">
+						 适龄提示：适合13岁及以上使用   家长监护工程>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/fsbass.js"></script>
+	<script src="js/fs.js"></script>
+</body>

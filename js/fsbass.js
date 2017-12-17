@@ -1,0 +1,22 @@
+$.ajax({
+    url:"data/is_login.php",
+    type:"get"
+}).then(data=>{
+    if(data.ok){
+        $(".modal").html((data.uname)+"的账号");
+        $(".navbar-section").html(data.uname);
+        $("#zce").hide();
+        $("#zhux").show();
+    }else{
+        $("#zce").show();
+        $("#zhux").hide();
+    }
+});
+
+$("#zhux").click((e)=>{
+	e.preventDefault();
+	$.ajax({
+		url:"data/logout.php",
+		type:"post"
+	}).then(()=>location.reload());
+})

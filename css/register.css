@@ -1,0 +1,299 @@
+h1{
+	display: block;
+}
+input{
+	text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 12.6667px Arial;
+}
+body{
+	background: url("../img/register/blizzard-background-1920.3f7pb.jpg");
+	font-size: 15px;
+    line-height: 20px;
+}
+.grid-100{
+	width: 100%;
+}
+.logo{
+	width: 200px;
+	height: 105px;
+	background: url("../img/register/blizzard-default.1C4OH.png") 0 0;
+	margin: 45px auto 10px;
+	text-indent: -9999px;
+}
+.content-container{
+	max-width: 500px;
+	margin: 35px auto;
+}
+.information>h1{
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 2.1em;
+}
+.social{
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 20px 0;
+}
+.social span{
+	position: relative;
+	display: inline-block;
+	font-size: 13px;
+	color: rgba(255,255,255,.3);
+}
+.social span:before{
+	right: 100%;
+	margin-right: 20px;
+	content: "";
+	width: 500px;
+    height: 1px;
+    background-color: rgba(255,255,255,.1);
+    position: absolute;
+    top: 50%;
+}
+.social span:after{
+	left: 100%;
+	margin-left: 20px;
+	content: "";
+	width: 500px;
+    height: 1px;
+    background-color: rgba(255,255,255,.1);
+    position: absolute;
+    top: 50%;
+}
+.content-container p{
+	margin-bottom: 10px;
+	margin:0 0 33px 0;
+	color: rgba(255,255,255,.7);
+}
+.grid-parent{
+	padding-right: 0;
+	padding-left: 0;
+}
+.control-group{
+	width: 500px;
+	height: 34px;
+	margin: 10px auto;
+}
+.control{
+	width: 500px;
+	height: 34px;
+	margin: 20px auto;
+}
+input{
+	display: inline-block;
+    vertical-align: middle;
+    height: 34px;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+input:hover{
+	border: 1px solid rgba(255,255,255,0.6);
+}
+.t-check{
+	vertical-align: bottom;
+	height: 17px;
+	width: 20px;
+	margin-right: -6px;
+	border: 1px solid rgba(255,255,255,0.3);
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+}
+.control span{
+	font-size: 15px;
+	color: rgba(255,255,255,.7);
+}
+.control a{
+	color: #00aeff;
+	text-decoration: none;
+}
+.form-controls{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.form-controls a{
+	background-color:rgba(0,0,0,0.5);
+	text-align: center;
+	color: #00aeff;
+	text-decoration: none;
+}
+.button-text{
+	display: block;
+	width: 500px;
+	padding-left: 0;
+	vertical-align: middle;
+	box-sizing: border-box;
+	background-color: #0e86ca;
+    color: #fff;
+    border: 1px solid #10a1de;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 15px auto;
+    padding: 6px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    height: 34px;
+    cursor: pointer;
+}
+.button-text:hover{
+	background-color:#00aeff;
+}
+.button-a{
+	display: block;
+	width: 500px;
+	padding-left: 0;
+	vertical-align: middle;
+	box-sizing: border-box;
+	background-color: #0e86ca;
+    color: #fff;
+    border: 1px solid #0d639f;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 15px auto;
+    padding: 6px 20px;
+    font-size: 15px;
+    line-height: 20px;
+    height: 34px;
+    cursor: pointer;
+}
+.button-a:hover{
+	border:1px solid #00aeff;
+}
+.alert{
+	width: 500px;
+	height: 100px;
+	margin: -25px auto 25px;
+	/*margin-bottom: 25px;*/
+	background-color: #360e10;
+    box-shadow: 0 0 0 1px #551e21 inset,0 5px 10px rgba(0,0,0,0.75);
+    padding: 20px 45px 20px 59px;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 20px;
+    text-shadow: none;
+    position: relative;
+    color: rgba(255,255,255,0.7);
+    border: 1px solid #000;
+    display: none;
+}
+.alert-icon:before{
+	content: "";
+	display: block;
+	position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    line-height: 24px;
+    vertical-align: top;
+    text-indent: -9999px;
+	background: url("../img/register/sprite-24-red.4Q3bt.png") no-repeat -24px 0;
+}
+.alert ul{
+	width: 374px;
+	height: 20px;
+	font-size: 13px;
+}
+.alert ul li{
+	margin-left: -22px;
+	padding-left: 5px;
+}
+/*fotter*/
+.Fotter{
+	position: relative;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+	z-index: 0;
+}
+.logoContainer{
+	margin: 30px 0;
+	height: 66px;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+.Footer-logo{
+	display: block;
+	position: relative;
+	width: 124px;
+	height: 66px;
+	margin: 0 auto;
+	background:url("http://blz.nos.netease.com/1/fsbnet/icon-sprite.png") no-repeat;
+}
+.NavbarFooter-links{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	color: #fff;
+	margin: 15px 0;
+}
+.NavbarFooter-linksLeft{
+	display: inline-block;
+}
+.NavbarFooter-anchor {
+	text-decoration: none;
+    color: rgba(255,255,255,.7);
+    background: 0 0;
+    font-size: inherit;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    background: 0 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.NavbarFooter-anchor1 {
+	text-decoration: none;
+    color: rgba(255,255,255,.7);
+    background: 0 0;
+    font-size: inherit;
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    background: 0 0;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.NavbarFooter-anchor:before {
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(255,255,255,.3);
+    margin: 0 15px;
+    pointer-events: none;
+}
+.NavbarFooter-copyright{
+	font-size: 13px;
+	color: rgba(255,255,255,.3);
+}
+.NavbarFooter-last{
+	font-size: 15px;
+	color: rgba(255,255,255,.7);
+}

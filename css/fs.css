@@ -1,0 +1,1454 @@
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input,
+ legend, li, ol, p, pre, td, textarea, th, ul 
+{
+   margin: 0;
+   padding: 0;
+}
+a{
+	color: #db6800;
+    text-decoration: none;
+}
+body{
+	background: #e7d4a9 url(http://hearthstone.nos.netease.com/3/v2015/layout/bg.jpg) repeat-y center 0 fixed;
+    position: relative;
+    overflow-x: hidden;
+	color: #fff;
+    font-size: 12px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+div{
+	display: block;
+}
+ol,ul{
+	list-style: none;
+}
+.nav{
+	position: relative;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+    z-index: 10000;
+    background-color: #2c0903;
+}
+.nav-container{
+	position: relative;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.nav-desktop{
+	height: 40px;
+	padding:  0 40px;
+	position: relative;
+}
+.nav-logo{
+	height: 40px;
+	width: 62px;
+	background: url("../img/Ficon-sprite.png") no-repeat -18px -75px;
+	display: inline-block;
+	margin-right: 30px;
+}
+.navbar-item{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.modal{
+	margin-left: 30px;
+}
+.nav-label{
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color: rgba(255,255,255,.7);
+	position: relative;
+}
+.nav-icon{
+	width: 14px;
+	height: 7px;
+	background: url("../img/Ficon-sprite.png") no-repeat -147px -131px;
+	display: inline-block;
+	vertical-align: baseline;
+	position: relative;
+	margin-left: -2px;
+}
+.nav-profileitems{
+	position: absolute;
+	right: 40px;
+	top: 0;
+	bottom: 0;
+}
+.navbar-modals{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+}
+.navbar-modal{
+	position: absolute;
+	top: 39px;
+	left: 0;
+	right: 0;
+	background:rgba(21,26,35,.95);
+	border:solid 1px rgba(255,255,255,.15);
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,.2);
+	opacity: 0;
+	display: none;
+	z-index: 2;
+}
+.navbar-tick{
+	position: absolute;
+    left: 319.312px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-top: solid 1px rgba(255,255,255,.15);
+    border-right: solid 1px rgba(255,255,255,.15);
+    background-color: #283244;
+    opacity: .95;
+    transform: translate(-50%,-50%) rotate(-45deg);
+    transform-origin: center;
+}
+.navber-desktopOverlay{
+	display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.8);
+}
+.navbar-posters{
+    text-align: center;
+}
+.Navbar-esports{
+    text-align: center;
+}
+.is-open{
+	opacity: 1; 
+	display: block !important;
+}
+.navbar-tickIner{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: solid 1px transparent;
+    background-color: #151a23;
+    opacity: 0.619726;
+}
+.navber-espert{
+	display: table;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+.Navbar-esport{
+	padding: 20px 0;
+	font-size: 15px;
+	display: table-cell;
+    vertical-align: top;
+    width: 16vw;
+    max-width: 192px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+}
+.Navbar-esportImage{
+	display: table-cell;
+    vertical-align: top;
+    width: 16vw;
+    max-width: 192px;
+    font-size: 15px;
+    padding: 20px 0;
+    line-height: 1.4;
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+}
+.Navbar-poster{
+	position: relative;
+    display: inline-block;
+    border: solid 1px rgba(255,255,255,.15);
+    box-shadow: 0 8px 17px rgba(0,0,0,.1);
+    margin: 40px 15px;
+    font-size: 0;
+    transition: border-color 200ms;
+}
+.Navbar-poster:hover{
+	border: solid 1px rgba(255,255,255,.6);
+}
+.Navbar-posterImage{
+	width: 9.6875vw;
+    height: 16.53963vw;
+    max-width: 164px;
+    max-height: 280px;
+}
+.Navbar-posterOverlay{
+	position: absolute;
+	top: auto;
+    left: auto;
+    height: 17.83918vw;
+    width: 11.4596vw;
+    max-height: 302px;
+    max-width: 194px;
+}
+.navbar-account{
+	position:absolute;
+	top: 39px;
+	right: 170px;
+	width: 318px;
+	background:rgba(21,26,35,.95);
+	border:solid 1px rgba(255,255,255,.15);
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,.2);
+	display: none;
+	border-top: 0;
+	z-index: 2;
+}
+.navbar-modalContent{
+	background: linear-gradient(to bottom,#283244 0,rgba(21,26,35,.95)100%);
+	z-index: 1;
+    position: relative;
+}
+.navbar-accountLogged{
+	background-color: rgba(0,0,0,.1);
+	border-top: solid 1px rgba(255,255,255,.08);
+}
+.navbar-section{
+	padding: 20px;
+}
+.navbar-button{
+	width: 64%;
+	display: inline-block;;
+	position: relative;
+    background-color: #0e86ca;
+    border: solid 1px #00aeff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    overflow: visible;
+    max-width: 100%;
+}
+.navbar-button:hover{
+	background-color: #00aeff;
+    border: solid 1px #00aeff;
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-accountLink{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    border-top: solid 1px rgba(255,255,255,.08);
+    padding: 0 20px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    transition: color 200ms,background-color 200ms;
+}
+.navbar-accountLinkIcon{
+	background-position: -140px -15px;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	width: 1.5em;
+    height: 1.5em;
+}
+.navbar-accountLinkIcon1{
+	background-position: -198px -16px;
+	width: 1.5em;
+    height: 1.5em;
+	margin-right: 5px;
+}
+.navbar-accountLable{
+	display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: inherit
+}
+.navbar-accountLink:hover{
+	color: #fff;
+	background-color: rgba(255,255,255,.05);
+}
+/*主体*/
+.homepage{
+	position: relative;
+	background: url("../img/Fhsbg.jpg") no-repeat 50% 0 fixed;
+}
+#content-bot{
+	position: relative;
+	background: url("../img/Fbg-top-fix.png") no-repeat 50% 0;
+	
+}
+#header{
+	height: 275px;
+    position: relative;
+    width: 1024px;
+    left: 50%;
+    margin-left: -512px;
+    z-index: 999;
+}
+#app{
+	width: 82px;
+    height: 82px;
+    cursor: pointer;
+    position: fixed;
+    bottom:200px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    background-color: rgba(70,14,7,.6);
+    perspective: 400px;
+}
+#wb{
+    background-image: url(http://hearthstone.nos.netease.com/3/v2015/json/weibo-icon.png);
+    width: 82px;
+    height: 82px;
+    cursor: pointer;
+    position: fixed;
+    bottom:110px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    background-color: rgba(96,52,18,.6);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+#gotop{
+	background-image: url(http://hearthstone.nos.netease.com/3/v2015/json/gotop-icon.png);
+	width: 82px;
+    height: 82px;
+    cursor: pointer;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 50%;
+    background-color: rgba(96,52,18,.6);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: none;
+}
+.dy{
+	display: none;
+}
+#content-bot .bk{
+	display: block;
+}
+#app img{
+	width: 82px;
+	height: 82px;
+	position: absolute;
+	transition: 1s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+.aaa{transform: rotateY(-180deg);}
+.front{transform: rotateY(0deg);}
+.back{transform: rotateY(180deg);}
+.logo{
+	position: absolute;
+    width: 350px;
+    height: 184px;
+    top: 32px;
+    left: 10px;
+    z-index: 9000;
+    background: url("../img/Fhome.png") no-repeat;
+}
+.header-nav{
+	top: 223px;
+	position: absolute;
+	height: 52px;
+	width: 1024px;
+}
+.fixed-nav{
+	position: fixed;
+	height: 52px;
+	width: 1024px;
+	top: 0;
+	z-index: 10000;
+}
+.search{
+	height: 42px;
+    position: absolute;
+    right: 21px;
+    top: 147px;
+    width: 302px;
+    z-index: 1001;
+    border: 1px solid #0f61c6;
+}
+.search input{
+	background: rgba(0,53,112,.4);
+    border: 1px solid #3eb0ff;
+    color: #fff;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    padding: 7px 40px 7px 10px;
+    width: 250px;
+}
+.nav-desktop div a div:hover{
+	color:rgba(255,255,255,1.3);
+}
+.search a{
+	height: 25px;
+	width: 25px;
+	position: absolute;;
+	right: 8px;
+	top: 9px;
+	background: url("../img/Fsearch.png") no-repeat;
+}
+#nav{
+	background: url("../img/Fnav_bg-1.jpg") no-repeat 0 0;
+	width: 963px;
+	height: 52px;
+	position: relative;
+	padding-left: 58px;
+	display: block;
+}
+#nav>li{
+	float: left;
+	width: 114px;
+	height: 52px;
+	position: relative;
+	z-index: 1000;
+}
+#container{
+    width: 1024px;
+    position: relative;
+    left: 50%;
+    margin-left: -512px;
+    min-height: 1000px;
+    z-index: 2;
+    padding-bottom: 100px;
+}
+.homeCon{
+	width: 703px;
+	position: relative;
+	z-index: 1001;
+	margin-bottom: 20px;
+	background: url("../img/Fhomeconmain-bg.png") repeat-y 50% 0;
+}
+#nav li.sprite-left{
+	width: 85px;
+	height: 128px;
+	position: absolute;
+	top: -10px;
+	left: -36px;
+	z-index: 1000;
+	float: left;
+	background: url("../img/Fnav-sprite-l.png") no-repeat;
+}
+#nav li.sprite-right{
+	width: 85px;
+	height: 128px;
+	position: absolute;
+	top: -10px;
+	right:-38px;
+	z-index: 1000;
+	float: left;
+	background: url("../img/Fnav-sprite-r.png") no-repeat;
+}
+#nav li a{
+	display: block;
+	height: 100%;
+	position: relative;
+	background:url("../img/Fnav_bg-1.jpg") no-repeat;
+}
+#nav li.nav1 a.actives{
+	background-position: -58px -104px;
+}
+#nav li.nav2 a{
+	background-position: -172px 0;
+}
+#nav li.nav3 a{
+	background-position: -286px 0;
+}
+#nav li.nav4 a{
+	background-position: -400px 0;
+}
+#nav li.nav5 a{
+	background-position: -514px 0;
+}
+#nav li.nav6 a{
+	background-position: -628px 0;
+}
+#nav li.nav7 a{
+	background-position: -742px 0;
+}
+#nav li.nav8 a{
+	background-position: -856px 0;
+}
+#nav li.nav2:hover a{
+	background-position: -172px -52px;
+}
+#nav li.nav3:hover a{
+	background-position: -286px -52px;
+}
+#nav li.nav4:hover a{
+	background-position: -400px -52px;
+}
+#nav li.nav5:hover a{
+	background-position: -514px -52px;
+}
+#nav li.nav6:hover a{
+	background-position: -628px -52px;
+}
+#nav li.nav7:hover a{
+	background-position: -742px -52px;
+}
+#nav li.nav8:hover a{
+	background-position: -856px -52px;
+}
+#nav ul{
+	position: absolute;
+	left: 0;
+	top: 46px;
+	display: block;
+	z-index: 1002;
+	display: none;
+}
+#nav ul li{
+	width: 114px;
+	height: 34px;
+	line-height: 32px;
+}
+#nav ul a{
+	color: #cd998e;
+	font-size: 14px;
+	padding-left: 20px;
+	background: rgba(77,9,8,.95);
+}
+#nav ul a:hover{
+	background: rgba(120,9,8,.95);
+}
+.fix1{
+	width: 100px;
+	height: 150px;
+	background: url("../img/card-1.png") no-repeat -354px -280px;
+	position: absolute;
+	left: -95px;
+	top: 30px;
+}
+.fix2{
+	width: 100px;
+	height: 150px;
+	background: url("../img/card-2.png") no-repeat -368px -130px;
+	position: absolute;
+	left: -85px;
+	top: -120px;
+}
+.fix3{
+	width: 280px;
+	height: 250px;
+	background: url("../img/card-3.png") no-repeat -1300px -30px;
+	position: absolute;
+	right: -110px;
+	bottom: 20px;
+}
+.fix4{
+	width: 150px;
+	height: 200px;
+	background: url("../img/card-4.png") no-repeat -1460px -140px;
+	position: absolute;
+	right: -140px;
+	bottom: -55px;
+}
+.fix5{
+	width: 150px;
+	height: 200px;
+	background: url("../img/card-5.png") no-repeat -1450px -288px;
+	position: absolute;
+	right: -120px;
+	bottom: -195px;
+}
+.homeCon-top{
+	min-height: 2210px;
+	position: relative;
+	padding: 27px 0 20px;
+	background: url("../img/Fhomeconmain-bg-top.png") no-repeat ;
+}
+#eye{
+	width: 640px;
+	height: 296px;
+	margin:0 auto;
+	background: #000;
+	padding: 1px;
+	box-shadow: 1px 1px 1px #ffe4bb inset,-1px -1px 1px #ffe4bb inset;
+	border:1px solid #b7894c;
+	position: relative;
+}
+.eye_weaper{
+	position: relative;
+	width: 640px;
+	height: 296px;
+	overflow: hidden;
+}
+.eye_pic{
+	width: 1920px;
+	left: 0px;
+	position: absolute;
+	transition: all .4s linear;
+}
+.clearFix{
+	display: block;
+}
+#eye .eye_pic li{
+	width: 640px;
+	float: left;
+	overflow: hidden;
+}
+.eye_small{
+	position: absolute;
+	bottom: 3px;
+	right: 10px;
+	z-index: 4;
+}
+.active{
+	border:1px solid #ffde00;
+}
+.avt{
+	border:1px solid #000;
+}
+#eye .eye_small li{
+	float: left;
+	margin:0 2px;
+	box-sizing: border-box;
+}
+.txtlist{
+	width: 640px;
+	height: 42px;
+	line-height: 42px;
+	position: absolute;
+	bottom: 1px;
+	left: 1px;
+	overflow: hidden;
+	border-top: 1px solid #8a673b;
+	z-index: 2;
+}
+.txtlist li{
+	padding-left: 10px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 0 0 2px #000;
+	display: none;
+}
+.eye_small li a{
+	display: block;
+	position: relative;
+}
+.small_pic{
+	width: 63.6px;
+	height: 30.275px;
+	border: 1px solid transparent;
+}
+.on{
+	border-color: #ffde00 !important;
+}
+.show{
+	display: list-item !important;
+}
+.videoEye{
+	width: 663px;
+	height: 218px;
+	padding: 35px 0 0;
+	margin: 0 auto;
+	position: relative;
+	background: url("../img/Fnews-eyes-bg.jpg") no-repeat 50% 100%;
+}
+.videoEye p{
+	display: inline-block;
+	color: #2e1b1e;
+    width: 288px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 44px;
+    margin-top: 8px;
+    overflow: hidden;
+    font-weight: 700;
+    text-align: center;
+}
+.videoEye li{
+	float: left;
+	width: 288px;
+	height: 211px;
+	padding: 10px;
+	background: url("../img/eyes-module.png") no-repeat;
+}
+
+.videoEye img{
+	padding: 2px;
+	background: #e8d0ab;
+	width: 280px;
+	height: 140px;
+	border: 1px solid #2e1b1e;
+	cursor: pointer;
+
+}
+.videoEye img:hover{
+	border: 1px solid red;
+}
+.videoEyefirst{
+	margin: 0 16px;
+}
+.clearFix:after {
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: ".";
+}
+.homeNews{
+	margin: 0 auto;
+	width: 630px;
+}
+.homeNewsWrap{
+	position: relative;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dbc497;
+}
+.homeNewsWrapF{
+	padding-top: 45px;
+	border-top: 0;
+}
+.homeCon-bot{
+	width: 703px;
+    height: 34px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background: url("../img/Fhomeconmain-bg-bot.png") no-repeat 50% 100%;
+}
+.homeNewsItem{
+	padding-left: 222px;
+	display: block;
+	position: relative;
+	width: 398px;
+	height: 100px;
+}
+.homeNewsItem img{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	height: 100px;
+	padding: 1px;
+	background: #fee0b9;
+	border:1px solid #b7894c;
+}
+.homeNewsItem:hover img{
+	background: green;
+}
+.homeNewsItem h4{
+	color: #150603;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.homeNewsIntro{
+	font-size: 14px;
+    color: #695745;
+    height: 38px;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+.homeNewsComment{
+	position: absolute;
+	bottom: 22px;
+	left: 223px;
+}
+.iconCommon{
+	width: 18px;
+    height: 19px;
+    background: url("../img/Fcommon2Ficon.png") no-repeat -80px -112px;
+    margin-right: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.commentNum{
+	color: #d25300;
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.time{
+	color: #666;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+.newsMore{
+	text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: #5b4b38;
+    line-height: 40px;
+    border: 1px solid #f1dbb8;
+    border-radius: 3px;
+    margin: 20px auto 0;
+    background: #d3b78b;
+}
+.borderLink{
+	font-size: 16px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    background: url("../img/2Fmore-icon.png") no-repeat 480px 50%;
+    padding-right: 12px;
+    color: #5b4b38!important;
+    border-bottom: none;
+    background-position: 350px 50%;
+}
+
+/*首页右侧*/
+.homeBar{
+	width: 340px;
+	min-height: 1000px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url("../img/Fhomeconbar-bg.png") repeat-y 100% 0;
+}
+.featuress{
+	width: 328px;
+	padding: 584px 0 10px;
+	position: relative;
+	background: url("../img/Fhome-bg.jpg") no-repeat 100% 0;
+	z-index: 1000;
+}
+.barlogo{
+	width: 275px;
+	height: 211px;
+	position: absolute;
+	top: -4px;
+	left: 36px;
+	display: block;
+	overflow: hidden;
+	z-index: 1;
+	background: url("../img/Fhome_logo.png") no-repeat 50% 0;
+}
+.download{
+	width: 297px;
+    height: 228px;
+    padding-top: 80px;
+    position: absolute;
+    top: 134px;
+    left: 18px;
+}
+.devicecon{
+	padding: 20px 0 0 36px;
+	height: 85px;
+}
+.devicecon li{
+	width: 80px;
+    height: 95px;
+    display: block;
+    float: left;
+}
+.lis1{
+	background: url("../img/Fdevice-icon.png") no-repeat 0 -182px;
+}
+.lis2{
+	background: url("../img/Fdevice-icon.png") no-repeat -80px 0;
+}
+.lis2 img{
+	position: absolute;
+    top: -5px;
+    right: 35px;
+    z-index: 2;
+    display: none;
+}
+.lis3{
+	background: url("../img/Fdevice-icon.png") no-repeat -160px 0;
+}
+.lis3 img{
+	position: absolute;
+    top: -3px;
+    right: 70px;
+    z-index: 2;
+    width: 107px;
+    height: 107px;
+    display: none;
+}
+.clientDown{
+	width: 220px;
+    height: 61px;
+    display: block;
+    position: absolute;
+    top: 206px;
+    left: 43px;
+    z-index: 2;
+    background: url("../img/Fdownload-btn2.png") no-repeat -35px -370px;
+    overflow: hidden;
+}
+.dragWrapper{
+	width: 305px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 99;
+}
+.rightModule{
+	width: 305px;
+	margin: 0 auto;
+	position: relative;
+}
+.wyw-icon{
+	width: 328px;
+	height: 33px;
+	position: absolute;
+	top: 584px;
+	left: 0;
+	display: block;
+	z-index: 100;
+	background: url("../img/2Fhome-bg-1.png") no-repeat 0 0;
+}
+.dragBtn{
+	width: 50px;
+    height: 50px;
+    z-index: 2;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.top{
+	background: url("../img/Fmoudel-top-bg.jpg") no-repeat 100% 0;
+}
+.bot{
+	width: 265px;
+    min-height: 80px;
+    padding: 30px 20px;
+    background: 0 0;
+    position: relative;
+}
+.homebar-bot{
+	width: 340px;
+    height: 35px;
+    position: absolute;
+    right: -18px;
+    bottom: -155px;
+    background: url("../img/Fhomeconbar-bg-bot.png") no-repeat 100% 0;
+}
+.rightModule h3{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #03345f;
+}
+
+.iconcommon{
+	background: url("../img/Ficon.png");
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+}
+.iconZh{
+	background-position: -87px -4px;
+}
+.esport{
+	position: relative;
+	z-index: 1001;
+	margin: 10px auto;
+	width: 244px;
+	height: 155px;
+}
+.esportCon{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.eye_saiS{
+	width: 732px;
+	position: absolute;
+	transition: all .3s linear;
+}
+.esportCont img{
+	transition: all .2s linear;
+}
+.esportCont img:hover{
+	transform:scale(1.1);
+	background:rgba(0,0,0,0.5);
+}
+.eye_saiS li{
+	position: relative;
+	float: left;
+	display: block;
+	width: 244px;
+	height: 155px;
+	cursor: pointer;
+}
+.eye_saiS a{
+	display: block;
+	width: 244px;
+	height: 155px;
+	cursor: pointer;
+}
+.esportCont{
+	position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 124px;
+    line-height: 124px;
+    text-align: center;
+    transition: transform 300ms;
+    overflow: hidden;
+}
+.esportCont img{
+	vertical-align: middle;
+}
+.esportBg{
+	position: absolute;
+	z-index: 1;
+}
+.esportBg img{
+	display: block;
+}
+.esportBg:after{
+    position: absolute;
+    content: "";
+    z-index: 2;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background-color: rgba(0,0,0,.99);
+    opacity: 0;
+    transition: opacity 300ms linear;
+    border-radius: 8px;
+}
+.esportTit{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    color: #251c0f;
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.prev{
+	position: absolute;
+	width: 7px;
+	height: 14px;
+	top: 37%;
+	left: -7%;
+	background: url("../img/Fhome2Fesport-icon.gif") no-repeat 0 0;
+}
+.next{
+	position: absolute;
+	width: 7px;
+	height: 14px;
+	top: 37%;
+	right: -7%;
+	background: url("../img/Fhome2Fesport-icon.gif") no-repeat -8px 0;
+}
+.videBox{
+	width: 265px;
+    height: 117px;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+    box-shadow: 0 0 1px #000;
+}
+.playBtn{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	z-index: 5;
+}
+.over{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 3;
+    box-shadow: 0 0 15px #000 inset;
+}
+.iconMt{
+	background-position: -46px -74px;
+}
+.bblist{
+	min-height: 86px;
+    padding-bottom: 10px;
+}
+.bblist a{
+	color: #5b4b38;
+	font-size: 12px;
+	line-height: 28px;
+}
+.moreBtn{
+	width: 33px;
+    height: 20px;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    float: right;
+    background: url("../img/Ficon-more.png") no-repeat;
+}
+.iconSmall{
+	background-position: -135px -143px;
+	height: 12px;
+	width: 10px;
+}
+.iconTj{
+	background-position: -87px -39px;
+}
+.rightModule-normal{
+	width: 260px;
+	min-height: 80px;
+	margin: 0 auto 20px;
+}
+.subModule{
+	width: 100%;
+    min-height: 52px;
+    margin: 10px auto;
+    border-radius: 3px;
+    background: #d1b181;
+    position: relative;
+    border: 1px solid #efd4ad;
+}
+.icon{
+	width: 260px;
+    left: 0;
+    position: absolute;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    z-index: 10;
+    background: url(../img/Fcommnity-icon.png) no-repeat;
+}
+.subModule .services-icon{
+	height: 89px;
+	top: -21px;
+	background-position: 175px -1629px;
+}
+.serbices{
+	min-height: 72px;
+}
+.serbices .text{
+	top: 27px;
+}
+.text{
+	position: absolute;
+	top: 18px;
+	left: 15px;
+}
+.subModule .guide{
+	height: 66px;
+	top: -10px;
+	background-position: 175px -279px;
+}
+.subModule h4{
+	color: #251c0f;
+	font-size: 15px;
+	font-weight: 700;
+}
+.subModule .appsite{
+	height: 73px;
+	top: -21px;
+	background-position: 175px -1120px;
+}
+.subModule .bmallIcon{
+	height: 83px;
+	top: -10px;
+	background-position: 175px -513px;
+}
+.bmall{
+	height: 70px;
+}
+.subModule p{
+	color: #66563d;
+	font-size: 14px;
+	font-weight: 700;
+}
+.subModule .tmallIcon{
+	height: 83px;
+	top: -10px;
+	background-position: 175px -775px;
+}
+.subModule .rewardIcon{
+	height: 68px;
+	background-position: 178px -1030px;
+}
+.subModule .jionUsIcon{
+	height: 80px;
+	background-position: 175px -1355px;
+	top: -5px;
+
+}
+.rightModule .iconChui{
+	background-position: -4px -189px;
+}
+.comm_share{
+	margin: 20px auto auto;
+	padding-left: 10px;
+}
+.comm_share li{
+	float: left;
+	font-size: 14px;
+	width: 118px;
+	margin-bottom: 23px;
+	line-height: 34px;
+}
+.comm_share .borderR{
+	padding-right: 8px;
+    margin-right: 10px;
+    display: inline;
+    background: url("../img/2Fborder.png") no-repeat right 4px;
+}
+.comm_share span{
+	width: 32px;
+    height: 42px;
+    float: left;
+    display: block;
+    background: url("../img/Fshare.png") no-repeat 0 0;
+    padding-left: 10px;
+}
+.yixin span{
+	background-position: -294px 0;
+	margin-left: 2px;
+}
+.weixin span{
+	background-position: -378px 0;
+}
+.xinlang span{
+	background-position: -210px 2px;
+}
+.webapp span{
+	background-position: -463px 2px;
+}
+.comm_share li a{
+	color: #251c0f;
+}
+.font-small{
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	position: absolute;
+	top: 233px;
+}
+.font-small1{
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+	position: absolute;
+	top: 233px;
+	right: 60px;
+}
+/*页脚*/
+#footer{
+	background: url("../img/2Ffooterrepeat.jpg") repeat-x;
+	margin:0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+.footer{
+	height: 471px;
+	background: url("../img/Ffooter.jpg") no-repeat 50% 0;
+}
+.regWrapper{
+	width: 349px;
+    height: 87px;
+    position: absolute;
+    z-index: 101;
+    left: 50%;
+    top: -30px;
+    margin-left: -175px;
+    background: url("../img/FlayoutFreg-bg.png") no-repeat;
+}
+.u-regBtn{
+	background: url("../img/Freg-btn.png") no-repeat;
+	bottom: -5px;
+    display: block;
+    height: 78px;
+    left: 50%;
+    margin-left: -123px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    width: 249px;
+}
+.f-cb{
+	width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+    color: #fff;
+    z-index: 100;
+    padding-top: 79px;
+    font-size: 14px;
+}
+.f-cs{
+	float: left;
+	font-size: 14px;
+}
+#footer p{
+	color: #552c09;
+}
+.f-cs a{
+	color: #fff;
+	margin-right: 37px;
+	vertical-align: middle;
+}
+.icon1{
+	background: url("../img/2Ff-business.png") no-repeat;
+	width: 19px;
+    height: 19px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.f-cs .icon-1{
+	background-position: -6px -7px;
+	top: 5px;
+}
+.f-cs .icon-2{
+	background-position: -8px -32px;
+	top: 4px;
+}
+.f-cs .icon-3{
+	background-position: -8px -32px;
+	top: 4px;
+}
+.foot-media{
+	text-align: right;
+    vertical-align: top;
+    margin-right: 50px;
+}
+.foot-icon{
+	background: url("../img/2Fbusiness-logo.png") no-repeat;
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.foot-media .icon-nvidia{
+	background-position: -352px 0;
+	width: 95px;
+	height: 26px;
+}
+.cprt{
+	text-align: left;
+    width: 1000px;
+    margin: 0 auto 8px;
+    padding-top: 40px;
+    position: relative;
+}
+.logo_bz{
+	display: inline-block;
+	background: url("../img/Flogo_blizzard.png") no-repeat 0 0;
+	width: 140px;
+    height: 80px;
+    overflow: hidden;
+    vertical-align: top;
+}
+.logo_ne{
+	display: inline-block;
+    background: url(http://hearthstone.nos.netease.com/3/suspense/logo_ne.png) no-repeat 0 0;
+    width: 125px;
+    height: 38px;
+    overflow: hidden;
+    margin: 0 0 0 20px;
+    vertical-align: top;
+    position: relative;
+    top: 39px;
+}
+.info{
+	width: 633px;
+    float: right;
+    text-align: left;
+    padding: 0 0 0 73px;
+    color: #552c09;
+    vertical-align: middle;
+    position: relative;
+}
+.info ul{
+	margin-left: -10px;
+	padding-bottom: 5px;
+}
+.info li{
+	float: left;
+	color: #ccc;
+	font-size: 14px;
+	padding: 0 10px;
+}
+.info p{
+	font-size: 13px;
+	color: #552c09;
+}
+.integr{
+	padding: 8px 0;
+}
+.bblist a:hover{
+	color: #db6800;
+}
+.homeNews div:hover{
+	background-color: #dbc497;
+}
+.subModule .services-icon:hover {
+    background-position: 175px -1721px;
+}
+.subModule .guide:hover {
+    background-position: 175px -377px;
+}
+.subModule .appsite:hover {
+    height: 73px;
+    top: -21px;
+    background-position: 175px -1234px;
+}
+.subModule .bmallIcon:hover {
+    background-position: 175px -615px;
+}
+.subModule .tmallIcon:hover {
+    height: 83px;
+    top: -10px;
+    background-position: 175px -896px;
+}
+.subModule .rewardIcon:hover {
+    background-position: 178px -1033px;
+}
+.subModule .jionUsIcon:hover{
+    height: 80px;
+    background-position: 175px -1443px;
+    top: -5px;
+} 
+.devicecon .lis1:hover {
+    background-position: 0 -89px;
+}
+.devicecon .lis2:hover {
+    background-position: -80px -89px;
+}
+.devicecon .lis3:hover {
+    background-position: -160px -89px;
+}
+.down1{
+background-position: -35px -370px;
+}
+.down2{
+background-position: -37px -140px;
+}
+.down3{
+background-position: -37px -254px;
+}

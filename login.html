@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>暴雪游戏通行证</title>
+	<link rel="shortcut icon" href="common_38_icon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<style>
+		form{
+			width: 360px;
+			margin: 0 auto;
+		}
+		.button-text{
+			width: 360px;
+			height: 40px;
+			margin-top: 10px;
+		}
+		input{
+			width: 100%;
+			height: 40px;
+            padding: 0 10px;
+    		font-size: 15px;
+    		margin-bottom: 14px;
+   			line-height: 20px;
+    		border: 1px solid rgba(255,255,255,0.3);
+    		background-color: rgba(0,0,0,0.5);
+    		color: rgba(255,255,255,0.7);
+    		border-radius: 2px;
+		}
+		.help_a{
+			color: #00aeff;
+			text-decoration: none;
+			display: block;
+			margin-bottom: 10px;
+		}
+		.help_a:hover{
+			color: #fff;
+		}
+		.help{
+			text-align: center;
+		}
+		.content-container{
+			margin: 50px auto;
+		}
+		.alert{
+			display: block;
+			width: 360px;
+			height: 60px;
+		}
+	</style>
+</head>
+<body>
+<div class="body-content">
+	<div class="grid-100">
+		<h1 class="logo">登录账号</h1>
+	</div>
+	<div class="content-container"></div>
+	<!-- 表单 -->
+	<div class="grid-parent">
+		<div class="alert" id="err" style="display: none;">
+			<div class="alert-icon"></div>
+		</div>
+		<form id="form1">
+				<input type="text" name="email" maxlength="18" placeholder="电子邮箱">
+				<input type="password" name="upwd" maxlength="18" placeholder="密码">
+				<span id="vcode" style="display:none">
+					<img src="data/03_code.php" id="captchapic" title="看不清？点击刷新">
+					<input type="text" name="captcha" placeholder="请输入验证码">
+				</span>
+				<button type="button" class="button-text">登录</button>
+			<div class="social">
+				<span>或</span>
+			</div>
+			<div class="help">
+			<a href="register.html" class="help_a">免费创建暴雪游戏通行证</a>
+			<a href="" class="help_a">无法登录？</a>
+			</div>
+		</form>
+	</div>
+	<!-- fotter -->
+	<div class="Fotter">
+		<div class="logoContainer">
+			<a href="fs.html" class="Footer-logo"></a>
+		</div>
+		<div class="NavbarFooter-links">
+			<div class="NavbarFooter-linksLeft">
+				<a href="" class="NavbarFooter-anchor1">工作机会</a>
+				<a href="" class="NavbarFooter-anchor">关于</a>
+				<a href="" class="NavbarFooter-anchor">支持</a>
+				<a href="" class="NavbarFooter-anchor">媒体中心</a>
+				<a href="" class="NavbarFooter-anchor">API</a>
+				<a href="" class="NavbarFooter-anchor">安全中心</a>
+			</div>
+		</div>
+		<div class="NavbarFooter-copyright">©2017暴雪娱乐有限公司版权所有。</div>
+		<div class="NavbarFooter-copyright">沪网文[2014]0731-161号</div>
+		<div class="NavbarFooter-copyright">增值电信业务经营许可证编号：沪B2－20080012</div>
+		<div class="NavbarFooter-last">适龄提示：适合13岁及以上使用 家长监护工程</div>
+	</div>
+</div>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script> 
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

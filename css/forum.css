@@ -1,0 +1,314 @@
+body{
+    background: url("../img/body-content-bg.jpg") transparent repeat center top;
+}
+#hd{
+	height: 280px;
+	position: relative;
+	z-index: 99;
+	border-bottom: 0 solid #c9b283;
+	background: url("../img/topbg.jpg") no-repeat center top;
+}
+#service{
+	position: absolute;
+    width: 1024px;
+    left: 50%;
+    top: 0;
+    margin-left: -524px;
+}
+.service-bar{
+	display: inline-block;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    z-index: 999;
+}
+.service-home{
+	background: url("../img/Fframe2Fbackground.png") no-repeat 0 0;
+    color: #8694A1;
+    display: block;
+    float: left;
+    line-height: 32px;
+    padding: 0 0 7px;
+    position: relative;
+}
+.service-home a{
+	background: url(http://nos.netease.com/blz/1/frame/background.png) no-repeat scroll 0 -40px;
+    border-left: 0 none;
+    display: block;
+    line-height: 33px;
+    padding: 0 0 0 7px;
+    text-indent: -9999px;
+    width: 48px;
+    height: 30px;
+    color: #00B6FF;
+    text-decoration: none;
+    font-size: 12px
+}
+.service-home a:hover{
+	background-position: 0 -80px;
+}
+#nav li.nav8 a{
+    background-position: -856px -52px;
+}
+#nav li.nav1 a.actives{
+    background-position: -58px 0;
+}
+#nav li.nav1 a.actives:hover{
+    background-position: -58px -104px;
+}
+.service-welcome{
+	background: url("../img/Fframe2Fbackground.png") repeat-x 0 -200px;
+    color: #8694A1;
+    display: block;
+    float: left;
+    line-height: 32px;
+    padding: 0 15px 7px;
+    position: relative;
+}
+.service-welcome a{
+	color: #00B6FF;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.service-welcome a:hover{
+	color: #fff;
+}
+.header-nav{
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -512px;
+}
+.mtm{
+	margin-top: 10px !important;
+	color:#000;
+}
+#wp{
+	min-width: 98%;
+	margin:0 auto;
+}
+#pt{
+	width: 990px;
+	margin: 0 auto;
+	height: 30px;
+    border: none;
+    background: transparent;
+    line-height: 20px;
+}
+.z span{
+	color: #666666;
+	float: left;
+}
+.z a{
+    float: left;
+}
+em{
+	width: 12px;
+    height: 8px;
+    margin: 7px 7px 0 0;
+    background: url("../img/arrows.gif") no-repeat 0 -103px;
+    overflow: hidden;
+    float: left;
+}
+#ct{
+    width: 100%;
+}
+#content{
+    background: url("../img/forum/bg-topic-list.png") no-repeat  top;
+}
+.mn{
+    background: url("../img/forum/content-bottom-line.png") no-repeat center bottom;
+    padding-bottom:70px;
+    position: relative;
+}
+.pg{
+    margin-top: 5px;
+    float: right;
+}
+.pgt{
+    width: 1024px;
+    margin:0 auto;
+}
+.ui-button{
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    outline: 0;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.ui-button .button-left{
+    background: url("../img/forum/button4.png") no-repeat 0 0;
+    height: 38px;
+    overflow: hidden;
+    padding-left: 35px;
+    display: inline-block;
+}
+.ui-button .button-right{
+    background: url("../img/forum/button4.png") no-repeat 100% -114px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    padding-right: 35px;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 0 0 5px #DD3400;
+    text-transform: uppercase;
+}
+.ui-button:hover .button-right {
+    color: #fff;
+    background-position: 100% -152px;
+}
+.ui-button:hover .button-left {
+    background-position: 0 -38px;
+} 
+
+.pg a:hover{
+    background: #7c5936;
+    border: 2px solid #c6b38a;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.pg a{
+    margin-right: 4px;
+    padding: 0 6px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    display: block;
+    background: #a0815d;
+    border: 2px solid #c6b38a;
+    border-radius: 3px;
+    margin-left: 4px
+}
+.pg .curr{
+    background: #7c5936;
+}
+.px{
+    padding: 0;
+    width: 25px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 2px;
+    border: 2px solid #c5b18a;
+}
+.pg label {
+    display: inline;
+    margin-left: 4px;
+    padding: 0 9px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    float: left;
+    border: none;
+    cursor: text;
+}
+
+#threadlist{
+    width: 1024px;
+    margin:0 auto;
+    border-radius: 0 0 5px 5px;
+}
+.th{
+    padding-top: 10px;
+    line-height: 25px;
+    background: url(../img/forum/bg-topic-list-title.png) no-repeat top center;
+    margin-top: 1px;
+}
+.th table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+.bm_c tr{
+    background: url("../img/forum/bg-topic-list.png") center top no-repeat;
+}
+.bm_c tbody:hover{
+    background-color: #DEC69B;
+}
+.icn{
+    padding-left: 5px;
+    width: 45px;
+    text-align: center;
+}
+.lock{
+    width: 534px;
+    cursor: pointer;
+}
+.bm_c .lock:hover{
+    color: red;
+}
+.frm{
+    width: 120px;
+}
+.num{
+    width: 60px;
+    text-align: center;
+    line-height: 14px;
+    color: #666;
+}
+.by{
+    width: 200px;
+    color: #03345F;
+    text-align: right;
+    line-height: 14px;
+}
+.action-bottom{
+    background: url("../img/forum/bg-topic-list.png") center top no-repeat;
+}
+.bm{
+    width: 1024px;
+    margin:0 auto;
+}
+#footer{
+    margin-top: 120px;
+}
+.forum-action{
+    padding:20px 0 40px;
+}
+.forumName{
+    color: #03345F;
+    font-size: 30px;
+    letter-spacing: -1px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.notice{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.notice div{
+    width: 200px;
+    height: 200px;
+    background: url("../img/5af38574c007da7977d70b3cb74a98b3.jpg");
+    margin:10px auto;
+}
+.notice p{
+    font-size: 20px;
+    text-align: center;
+    color: #323232;
+}
+.notice a{
+    font-size: 14px;
+}
+
